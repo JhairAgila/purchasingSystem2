@@ -1,0 +1,49 @@
+table{
+    width: 80%;
+    text-align: left;
+    align-items: center;
+    border: 3px solid black;
+    /* border-spacing: 20px; */
+}
+
+table caption{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+table td{
+    text-align: center;
+}
+
+
+table th{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(196, 214, 190);
+}
+
+.img{
+    height: 30%;
+    width: 30%;
+    max-height: 70px;
+    border-radius: 50%;
+}
+
+.icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(234, 234, 240);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 5px;
+    margin-left: 10px;
+}
+.icon:hover{
+    background-color: rgb(195, 195, 250);
+    color: red;
+    transform: scale(1.2);
+}

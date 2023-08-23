@@ -1,0 +1,27 @@
+.rdt_TableCol{
+    background-color: rgb(170, 166, 166);
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;   
+}
+.rdt_TableCell{
+    background-color: aqua;
+    color: black;
+}
+.icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(234, 234, 240);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 5px;
+    margin-left: 10px;
+}
+.icon:hover{
+    background-color: rgb(195, 195, 250);
+    color: red;
+    transform: scale(1.2);
+}
